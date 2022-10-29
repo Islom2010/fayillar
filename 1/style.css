@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #29b6f6, #90caf9);
+    overflow: hidden;
+    position: relative;
+}
+.group{
+    width: 100%;
+    height: 300px;
+    background: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1590225630/RunningMan/ground_zedcs5.png);
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    animation: ground 0.5s steps(5) infinite;
+    animation-play-state: paused;
+}
+@keyframes graund {
+    100% {background-position: 100% 0;}
+}
+.cloud{
+    width: 196px;
+    height: 99px;
+    background: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1590225630/RunningMan/cloud_qzbk64.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: clouds 12s linear infinite;
+    transform: translate(1000%);
+    animation-play-state: paused;
+}
+@keyframes clouds {
+    100% {transform: translate(-100%);}
+}
+.cloud2{
+    top: 100px;
+    animation: clouds 10s linear infinite;
+    animation-play-state: paused;
+}
+.man {
+    width: 160px;
+    height: 260px;
+    background: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1590225630/RunningMan/man_xaawhu.png);
+    position: absolute;
+    bottom: 75px;
+    z-index: 2;
+    animation: man 0.5s steps(5) infinite;
+    animation-play-state: paused;
+}
+@keyframes man {
+    100% {background-position: -100% 0;}
+}
+.run {
+    animation-play-state: running;
+}

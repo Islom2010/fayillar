@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+            <h1 class="logo"><a href="#">Education</a></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="News.html">New</a></li>
+                <li><a href="Login.html" class="current">Login</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox"> 
+            <i class="fas fa-usser"></i>
+            <input type="text"placeholder="Username">
+        </div>
+        <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text"placeholder="Name">
+        </div>
+        <div class="textbox">
+            <i class="fas fa-phone"></i>
+            <input type="text" placeholder="Phone number">
+        </div>
+        <form>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="Buxoro">Buxoro</option>
+                <option value="Navoi">Navoi</option>
+                <option value="Samarqand">Samarqand</option>
+                <option value="Qarshi">Qarshi</option>
+                <option value="Surxandaryo">Surxandaryo</option>
+                <option value="Jizzax">Jizzax</option>
+                <option value="Toshkent">Toshkent</option>
+                <option value="Namangan">Namangan</option>
+                <option value="Andijon">Andijon</option>
+                <option value="Farg'ona">Farg'ona</option>
+            </select>
+        </form>
+        
+    <form>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="3"></textarea>
+    </form>
+    <form>
+           <div class="button"><a href="#">Erkak</a></div>
+           <div class="button"><a href="#">Ayol</a></div>
+    </form>
+        <div class="textbox">
+            <i class="far fa-lock"></i>
+            <input type="password" placeholder="Password">
+        </div>
+        <input type="button" class="btn" value="Sign in">
+    </div>
+</body>
+</html>
