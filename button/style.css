@@ -1,0 +1,24 @@
+@import url('');
+
+
+body, html {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     background: #f2eee3;
+}
+form{
+    width: 30rem;
+    padding: 1rem;
+    background: #f2eee3;
+    font-size: 1.5rem;
+}
+h1 {
+    color: #000;
+    margin: 0 0 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+.searchBox-
